@@ -13,7 +13,7 @@ class Ledfeedback(MycroftSkill):
 
         pixel_ring.set_brightness(10)
 
-    def stop(self):
+    def shutdown(self):
         self.power.off()
 
     def initialize(self):
